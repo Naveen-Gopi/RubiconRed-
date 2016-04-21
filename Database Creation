@@ -1,0 +1,19 @@
+
+CREATE TABLE  book_details (
+  book_id INT(10) NOT NULL AUTO_INCREMENT,
+  isbn INT(10) NOT NULL,
+  title VARCHAR(45) NOT NULL,
+  author VARCHAR(30)  NOT NULL,
+  book_type VARCHAR(20) NOT NULL,
+  description VARCHAR(200) DEFAULT NULL,
+  PRIMARY KEY (book_id)
+) ENGINE=InnoDB
+
+CREATE TABLE user_details(
+user_id INT(10) NOT NULL AUTO_INCREMENT,
+user_name VARCHAR(30) NOT NULL,
+subcription_type VARCHAR(20) NOT NULL,
+Start_date DATE DEFAULT NULL,
+end_date DATE DEFAULT NULL,
+PRIMARY KEY (user_id)
+)ENGINE=InnoDB
