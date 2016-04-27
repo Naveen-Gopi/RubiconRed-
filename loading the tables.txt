@@ -1,0 +1,12 @@
+mysql -h localhost -u root -psupersecretpassword < login.sql
+
+mysql -h localhost -u root -psupersecretpassword < book_details.sql
+
+mysql -h localhost -u root -psupersecretpassword < user_details.sql
+
+mysql -h localhost -u root -psupersecretpassword < supplier.sql
+
+mysql -h localhost -u root -psupersecretpassword < subcription.sql
+
+mysql -h localhost -u root -psupersecretpassword < status_of_borrow.sql
+
